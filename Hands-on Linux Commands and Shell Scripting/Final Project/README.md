@@ -1,0 +1,2 @@
+# Automated Backup Script
+This project aims to automate the process of backing up encrypted password files at ABC International Inc. The current manual process is time-consuming, prone to human errors, and compromises security. As the lead Linux developer at ABC, I created a script that will run daily and automatically back up any encrypted password files that have been updated within the last 24 hours.
