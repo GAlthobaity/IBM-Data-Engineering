@@ -24,7 +24,7 @@ echo "Target Directory is $1"
 echo "Destination Directory is $2"
 
 # [TASK 3]
-currentTS=$(date +%S)
+currentTS=$(date +%s)
 
 # [TASK 4]
 backupFileName="backup-$currentTS.tar.gz"
@@ -55,7 +55,7 @@ declare -a toBackup
 for file in $(ls) # [TASK 9]
 do
   # [TASK 10]
-  if (($(date -r $file +%S) < $yesterdayTS))
+  if (($(date -r $file +%s) > $yesterdayTS))
   then
     # [TASK 11]
     toBackup+=($file)
