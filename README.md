@@ -30,3 +30,9 @@ A script that will run daily and automatically back up any encrypted password fi
 
 --- 
 
+### [MySQL Automated Backup and Truncate](https://github.com/GAlthobaity/IBM-Data-Engineering/tree/main/Relational%20Database%20Administration%20(DBA))
+*This project is part of [Relational Database Administration (DBA)](https://www.coursera.org/learn/relational-database-administration)*
+
+Shell scripts that automate tasks related to a MySQL database. The scripts allow you to perform database backups, create cron jobs for automated backups, and truncate tables.
+
+**Tools**: Shell and MySQL CLI
