@@ -25,6 +25,11 @@ To truncate all the tables in the database, execute the `truncate.sh` script. It
     2. It lists the tables in the database using the `show tables` command and iterates through each table.
     3. For each table, the script executes a `TRUNCATE TABLE` statement to delete all the data while keeping the table structure intact.
 
+## Cron Job
+A cron job was set up to automatically run every 2 minutes, as shown in the pictures below.
+
+![image](https://github.com/GAlthobaity/IBM-Data-Engineering/assets/60229547/08230919-7bba-4491-ae4e-facb6af83fb2)
+![image](https://github.com/GAlthobaity/IBM-Data-Engineering/assets/60229547/dd3d5958-1e96-4584-8c20-79a0fc8f093f)
 
 
 
